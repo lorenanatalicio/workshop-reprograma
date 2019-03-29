@@ -1,0 +1,134 @@
+/* oi, eu sou um comentário em css */
+
+/* ESTILOS GERAIS */
+
+/* Aplicar em todos os elementos html */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+a {
+   text-decoration: none;  
+}
+
+
+/* BANNER */
+
+.banner {
+    background: url(../img/banner-bg.png);
+    background-size: cover;
+    height: 560px;
+    color: white;
+    text-align: center;
+}
+
+.banner__conteudo {
+    padding: 260px;
+}
+
+.banner__titulo {
+    font-size: 50px;
+}
+
+.banner__subtitulo {
+    font-size: 23px;
+}
+
+.banner__link {
+    color: #7E459B;
+    background-color: white;
+
+}
+
+/* PROPRIEDADE BOTAO DA PAGINA */
+.botao {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+/* MARGENS */ 
+.container-margens {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+/* SOBRE MIM */
+
+.sobre__titulo {
+    font-size: 40px;
+    color: #C4C4C4;
+}
+
+.sobre__descricao-principal {
+    font-size: 22px;
+    text-align: justify;
+}
+
+.sobre {
+    display: flex;
+}
+
+.sobre__descricao, .sobre__habilidades {
+    width: 49%;
+    line-height: 20px;
+
+}
+
+.sobre__descricao-principal, .sobre__habilidades_titulo {
+    font-size: 22px;
+}
+
+.sobre__habilidades {
+    margin-left: 70px; 
+}
+
+.sobre__cv-link {
+    color: #7E459B;
+    border: 1px solid #7E459B;
+}
+
+/* FOOTER */
+
+.footer {
+    text-align: center;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociais__link {
+    background-color: #7E459B;
+    color: white;
+    font-size: 20px;
+    width: 20%;
+    padding: 20px;
+    margin: 0 15px;
+    text-align: center;
+}
+
+.footer__copyright-texto {
+    color: #C4C4C4;
+    font-weight: lighter;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+
+@media(min-width:320px) and (max-width:768px){
+    
+}
